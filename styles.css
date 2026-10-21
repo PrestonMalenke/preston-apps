@@ -64,3 +64,21 @@ body{background:radial-gradient(ellipse 80% 45% at 50% -12%,#2c4033 0%,transpare
 .status{background:#e8decd;border-color:#d5c6b2;color:#766653}
 .status-live{background:#dfe8dc;border-color:#bdcfb8;color:#436448}
 .status-dot{background:#618d68}
+
+/* Modern app-directory finish: lighter spruce shell, tactile tiles */
+:root{--background:#26362d;--line:#485b4c}
+body{background:radial-gradient(ellipse 80% 65% at 45% -18%,#455c49 0%,rgba(69,92,73,0) 78%),linear-gradient(150deg,#2c3e32 0%,#26362d 65%,#293a30 100%) fixed}
+.site-header{border-bottom-color:#526455}
+.brand-mark{border-radius:12px;background:#48614e;border-color:#77937b;box-shadow:inset 0 1px rgba(255,255,255,.13)}
+.app-grid{gap:14px}
+.app-card{position:relative;overflow:hidden;border-radius:16px;border-color:#e1d5c4;background:linear-gradient(145deg,#fffaf1,#eee3d3);box-shadow:0 7px 18px rgba(16,28,19,.17),inset 0 1px rgba(255,255,255,.72);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+.app-card--active{border-color:#dfc7a8;background:linear-gradient(145deg,#fffcf5,#f1e4d1)}
+.app-card--active:hover,.app-card--active:focus-visible{transform:translateY(-3px);border-color:#c7a981;background:linear-gradient(145deg,#fffcf6,#f4e7d7);box-shadow:0 15px 30px rgba(15,27,18,.24),inset 0 1px rgba(255,255,255,.8)}
+.app-icon{width:43px;height:43px;border-radius:13px;box-shadow:inset 0 1px rgba(255,255,255,.65);display:grid;place-items:center}
+.app-icon svg{width:23px;height:23px;display:block}
+.card-body h3{font-weight:650;letter-spacing:-.035em}
+.status{border-radius:999px;padding:6px 9px;letter-spacing:.075em}
+.status-live{background:#e1ede2;color:#3b6745;border-color:#c6dbca}
+.site-footer{border-top-color:#526455}
+@media(max-width:570px){.app-grid{gap:12px}.app-card{border-radius:14px}.app-icon{width:40px;height:40px}}
+@media(prefers-reduced-motion:reduce){.app-card,.app-card--active{transition:none}}
