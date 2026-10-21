@@ -19,3 +19,32 @@
 .site-footer{min-height:58px}
 @media(max-width:850px){.app-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:570px){.site-shell{padding-inline:19px}.site-header{height:65px}.hero{padding:32px 0 31px}.hero h1{font-size:42px}.app-grid{grid-template-columns:1fr;gap:10px}.app-card{min-height:142px;padding:15px 17px}.card-body{margin-top:12px}.card-body h3{font-size:18px}.collection{padding-bottom:37px}}
+
+/* Sage-on-charcoal visual refresh */
+:root{color-scheme:dark;--ink:#eff3eb;--muted:#a0aea1;--line:#344138;--surface:#25332b;--background:#151e19;--accent:#a1c4a6}
+body{background:radial-gradient(ellipse 80% 45% at 50% -12%,#2c4033 0%,transparent 75%),var(--background);color:var(--ink);min-height:100vh}
+.site-header{border-bottom-color:#36473b}
+.brand{color:#f0f5ed}
+.brand-mark{background:#344b3b;border-color:#52745a;color:#f5f8f2}
+.brand-dot{color:#a8d6ad}
+.header-note{color:#a9b8aa}
+.eyebrow{color:#a8c6a9}.eyebrow-line{background:#8dac92}
+.hero h1 em{color:#b4d0b6}
+.hero p{color:#afbaae}
+.section-heading h2{color:#f1f5ed}
+.item-count,.section-kicker{color:#98ae9b}
+.app-card{background:linear-gradient(145deg,#2d3e32,#25342b);border:1px solid #45604b;box-shadow:0 5px 18px rgba(0,0,0,.13)}
+.app-card--active{border-color:#789c7e;background:linear-gradient(145deg,#354e3b,#2a3e30)}
+.app-card--active:hover,.app-card--active:focus-visible{border-color:#b0d6b5;background:linear-gradient(145deg,#3c5743,#2c4133);box-shadow:0 13px 32px rgba(0,0,0,.25),0 0 0 1px rgba(163,207,167,.18)}
+.app-category{color:#a9bfab}
+.card-body h3{color:#f4f8f1}
+.card-body h3 span{color:#b2d9b8}
+.card-body p{color:#becbc0}
+.icon-water{background:#34595a;color:#b4e0db}
+.icon-river{background:#42563e;color:#d4e2a9}
+.icon-hockey{background:#4b4358;color:#dfc8ef}
+.icon-cocktail{background:#59483e;color:#edd1b7}
+.status{background:#344139;border:1px solid #506055;color:#c8d3c7}
+.status-live{background:#365640;border-color:#648b6d;color:#cbf0cf}
+.status-dot,.live-indicator{background:#a5dcaa}
+.site-footer{border-top-color:#344138;color:#a5b2a5}
