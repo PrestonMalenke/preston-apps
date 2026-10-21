@@ -1,23 +1,28 @@
 # Preston Apps
 
-A lightweight, standalone directory for Preston's personal web applications.
+Standalone apps hub with a compact directory and independent application routes.
 
-## Current status
-- **Water Explorer:** live, links to its existing standalone site.
-- **Poudre River, Avs Hub, Fall Cocktails:** placeholders until the apps are migrated out of PWE.
+## Applications
 
-## Deployment
-This hub currently uses plain HTML and CSS (no build framework or environment variables).
+- Water Explorer (external standalone project)
+- Poudre River: `/standalone/poudre-fishing-dashboard.html`
+- Avs Hub: `/apps/avs-hub/`
+- Fall Cocktails: `/apps/fall-cocktails/`
 
-For **Cloudflare Pages** with Git integration:
+## Development
+
+```sh
+npm install
+npm run dev
+npm run build
+```
+
+## Cloudflare Pages
+
 - Production branch: `main`
-- Framework preset: None
-- Build command: leave blank
-- Build output directory: `/` (repository root)
+- Build command: `npm run build`
+- Output: `dist`
+- Cloudflare Pages Function: `/api/avs` supplies NHL data to Avs Hub
+- Public URL: https://preston-apps.pages.dev
 
-The existing PWE code remains untouched until each migrated application is working in this hub.
-
-## Adding apps
-Add an app card to `index.html`; add or update the page assets as needed. Avoid exposing API keys or private data in this public repository.
-
-Production site: https://preston-apps.pages.dev
+PWE continues to host the original apps during migration verification. Keep API keys and private records out of this public repository.
