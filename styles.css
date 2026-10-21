@@ -48,3 +48,19 @@ body{background:radial-gradient(ellipse 80% 45% at 50% -12%,#2c4033 0%,transpare
 .status-live{background:#365640;border-color:#648b6d;color:#cbf0cf}
 .status-dot,.live-indicator{background:#a5dcaa}
 .site-footer{border-top-color:#344138;color:#a5b2a5}
+
+/* Warm parchment cards against the charcoal-sage shell */
+.app-card{background:linear-gradient(145deg,#fbf5e9 0%,#eee3d1 100%);border-color:#d5c4ad;box-shadow:0 7px 22px rgba(0,0,0,.22)}
+.app-card--active{background:linear-gradient(145deg,#fff9ed 0%,#f1e5d1 100%);border-color:#cba985}
+.app-card--active:hover,.app-card--active:focus-visible{background:linear-gradient(145deg,#fffaf0 0%,#f4e8d7 100%);border-color:#ad8b69;box-shadow:0 14px 34px rgba(0,0,0,.27),0 0 0 1px rgba(255,242,221,.35)}
+.app-category{color:#836d58}
+.card-body h3{color:#342c24}
+.card-body h3 span{color:#80634b}
+.card-body p{color:#65594e}
+.icon-water{background:#dce8e9;color:#3d6870}
+.icon-river{background:#e5dfc7;color:#766f43}
+.icon-hockey{background:#e8ddec;color:#775b83}
+.icon-cocktail{background:#f0dccc;color:#946c53}
+.status{background:#e8decd;border-color:#d5c6b2;color:#766653}
+.status-live{background:#dfe8dc;border-color:#bdcfb8;color:#436448}
+.status-dot{background:#618d68}
