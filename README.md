@@ -19,3 +19,5 @@ The existing PWE code remains untouched until each migrated application is worki
 
 ## Adding apps
 Add an app card to `index.html`; add or update the page assets as needed. Avoid exposing API keys or private data in this public repository.
+
+Production site: https://preston-apps.pages.dev
